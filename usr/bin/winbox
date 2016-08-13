@@ -1,3 +1,0 @@
-#!/bin/bash
-wine /opt/winbox/winbox.exe $1 $2 $3
-
