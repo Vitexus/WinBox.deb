@@ -5,4 +5,4 @@ Exec=winbox
 Terminal=false
 Icon=winbox
 Type=Application
-Categories=Wine;
+Categories=Network

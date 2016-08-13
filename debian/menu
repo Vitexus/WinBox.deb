@@ -1,2 +1,0 @@
-?package(winbox):needs="X11" section="Applications/Wine"\
-  title="winbox" command="/usr/bin/winbox"

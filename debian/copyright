@@ -1,14 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: winbox
-Source: <url://example.com>
+Source: <http://www.mikrotik.com/download>
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2016 Vitezslav Dvořák <info@vitexsoftware.cz>
 License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2016 Vítězslav Dvořák <vitex@arachne.cz>
+Copyright: 2015 vitex <vitex@vitexsoftware.cz>
 License: GPL-3.0+
 
 License: GPL-3.0+
@@ -28,7 +27,6 @@ License: GPL-3.0+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid to pick license terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
+Files: winbox.exe
+License: Proprietary
+ This program is only for owners of RouterBoard hardware.
