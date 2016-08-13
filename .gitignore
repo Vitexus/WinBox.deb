@@ -1,0 +1,8 @@
+/debian/debhelper-build-stamp
+/debian/files
+/debian/winbox.debhelper.log
+/debian/winbox.postinst.debhelper
+/debian/winbox.postrm.debhelper
+/debian/winbox.substvars
+/debian/winbox/
+/winbox.exe
