@@ -1,0 +1,4 @@
+winbox.png 	usr/share/icons/hicolor/256x256/apps
+winbox.desktop  usr/share/applications
+winbox		usr/bin
+
