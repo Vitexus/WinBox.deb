@@ -1,12 +1,15 @@
-Package: winbox
-Version: 3.0
-Architecture: amd64
-Maintainer: vitex <vitex@vitexsoftware.cz>
-Installed-Size: 1624
-Depends: wine
+Source: winbox
 Section: net
-Priority: optional
-Homepage: https://www.vitexsoftware.cz/repos.php
+Priority: extra
+Maintainer: Vitex <vitex@vitexsoftware.cz>
+Uploaders: Vitexus <vitex@hippy.cz>
+Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 5.0.0)
+
+Package: winbox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, wine
+Homepage: http://wiki.mikrotik.com/wiki/Manual:Winbox
 Description: a small program that allows users to control and monitor Mikrotik RouterOS
  The package WinBox provide the interface (gui) to configure the Mikrotik OS
  router is  currently only running on the operating system microsoft windows
