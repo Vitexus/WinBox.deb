@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Vitex <vitex@vitexsoftware.cz>
 Uploaders: Vitexus <vitex@hippy.cz>
 Standards-Version: 3.8.0
-Build-Depends: debhelper (>= 5.0.0)
+Build-Depends: debhelper (>= 5.0.0), curl, wget, sed
 
 Package: winbox
 Architecture: any

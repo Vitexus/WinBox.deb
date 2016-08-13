@@ -28,5 +28,12 @@ include /usr/share/dpkg/default.mk
 #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
 
+override_dh_install:
+	dh_install
+	./downloadExe.sh
+
+override_dh_clean:
+	dh_clean
+	rm winbox.exe
 
 
