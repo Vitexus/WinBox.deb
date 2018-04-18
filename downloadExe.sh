@@ -1,4 +1,4 @@
 #!/bin/bash
-wget `curl -s http://www.mikrotik.com/download | sed 's/\"/\n/g'  | grep winbox.exe`
+wget https:`curl -s https://mikrotik.com/download | sed 's/\"/\n/g'  | grep winbox.exe`
 
 

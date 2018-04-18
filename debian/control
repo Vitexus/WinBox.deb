@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 9.0.0), curl, wget, sed (>= 4.2.2)
 
 Package: winbox
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, wine
+Depends: ${shlibs:Depends}, ${misc:Depends}, wine, wine32-development
 Homepage: http://wiki.mikrotik.com/wiki/Manual:Winbox
 Description: a small program that allows users to control and monitor Mikrotik RouterOS
  The package WinBox provide the interface (gui) to configure the Mikrotik OS
