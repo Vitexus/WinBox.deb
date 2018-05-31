@@ -1,8 +1,9 @@
-winbox (3.13) UNRELEASED; urgency=medium
+winbox (3.14) experimental; urgency=medium
 
-  * Non-maintainer upload.
+  * Update for 3.14
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 18 Apr 2018 12:20:06 +0200
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Thu, 31 May 2018 10:04:30 +0200
 
 winbox (3.4) unstable; urgency=low
 

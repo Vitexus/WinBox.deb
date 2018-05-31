@@ -17,16 +17,22 @@ Also provide the Menu Item
  * Build Command: `gbp buildpackage`
 
 
-
 Installation
 ------------
+
+If wine32 is missing, you should install it.
+multiarch needs to be enabled first.  as root, please
+execute:
+
+    dpkg --add-architecture i386 && apt-get update && apt-get install wine32
+
 
 For Debian please use repo:
 
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/vs.list
-    aptitude update
-    aptitude install winbox
+    apt update
+    apt install winbox
 
 
 
