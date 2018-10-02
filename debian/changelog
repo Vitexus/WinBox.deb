@@ -2,18 +2,6 @@ winbox (3.18) stable; urgency=medium
 
   * package update with winbox.exe 3.18
 
- -- root <root@hosting.vitexsoftware.cz>  Tue, 02 Oct 2018 13:42:40 +0200
-
-winbox (3.18) stable; urgency=medium
-
-  * package update with winbox.exe 3.18
-
- -- vitex <vitex@hosting.vitexsoftware.cz>  Tue, 02 Oct 2018 13:42:13 +0200
-
-winbox (3.18) stable; urgency=medium
-
-  * package update with winbox.exe 3.18
-
  -- vitex <vitex@hosting.vitexsoftware.cz>  Tue, 02 Oct 2018 13:39:31 +0200
 
 winbox (3.14) experimental; urgency=medium

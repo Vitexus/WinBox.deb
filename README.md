@@ -1,3 +1,4 @@
+![Project Logo](https://raw.githubusercontent.com/Vitexus/WinBox.deb/master/project-logo.png)
 # winbox-deb-package
 
 Debian Package for current MikroTik WinBox: a small program that allows users to control and monitor Mikrotik RouterOS
@@ -24,7 +25,7 @@ If wine32 is missing, you should install it.
 multiarch needs to be enabled first.  as root, please
 execute:
 
-    dpkg --add-architecture i386 && apt-get update && apt-get install wine32
+    dpkg --add-architecture i386 && apt-get update
 
 
 For Debian please use repo:
