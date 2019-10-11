@@ -1,5 +1,11 @@
 winbox (3.19) stable; urgency=medium
 
+  * package update with winbox.exe 3.19
+
+ -- root <root@hosting.vitexsoftware.cz>  Fri, 11 Oct 2019 10:16:38 +0200
+
+winbox (3.19) stable; urgency=medium
+
   * no changelog entry at https://wiki.mikrotik.com/wiki/Winbox_changelog yet
   * package update with winbox.exe 3.19
 
