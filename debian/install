@@ -1,5 +1,6 @@
 winbox.png 	usr/share/icons/hicolor/256x256/apps
 winbox.desktop  usr/share/applications
 winbox		usr/bin
-winbox.exe	opt/winbox
+winbox64.exe	usr/lib/winbox
+winbox32.exe	usr/lib/winbox
 

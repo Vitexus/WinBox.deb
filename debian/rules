@@ -29,11 +29,13 @@ include /usr/share/dpkg/default.mk
 
 
 override_dh_install:
-	./downloadExe.sh
+	wget https://mt.lv/winbox   -O winbox32.exe
+	wget https://mt.lv/winbox64 -O winbox64.exe
 	dh_install
 
 override_dh_clean:
-	rm -f winbox.exe
 	dh_clean
+	rm -f winbox32.exe
+	rm -f winbox64.exe
 
 
