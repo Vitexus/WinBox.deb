@@ -30,11 +30,10 @@ execute:
 
 For Debian please use repo:
 
-    wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/vs.list
-    apt update
-    apt install winbox
-
+    echo "deb http://repo.vitexsoftware.cz $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+    sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
+    sudo apt update
+    sudo apt install winbox
 
 
 See Also Redhat Package: https://github.com/ivoarch/winbox-rpm 
