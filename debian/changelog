@@ -1,3 +1,9 @@
+winbox (3.24) stable; urgency=medium
+
+  * package update with winbox.exe 3.24
+
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Mon, 25 May 2020 23:28:59 +0200
+
 winbox (3.23) stable; urgency=medium
 
   * package update with winbox.exe 3.23
