@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=winbox
+Comment=small utility that allows administration of MikroTik RouterOS
+Categories=Settings;Security;Network
+
+Icon=winbox
+Exec=winbox
+Terminal=false
+
+

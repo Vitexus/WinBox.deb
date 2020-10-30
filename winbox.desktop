@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=WinBox
-Comment=a small program that allows users to control and monitor Mikrotik RouterOS
-Exec=winbox
-Terminal=false
-Icon=winbox
-Type=Application
-Categories=Network
