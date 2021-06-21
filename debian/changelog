@@ -1,8 +1,9 @@
 winbox (3.28) UNRELEASED; urgency=medium
 
   * package update with winbox.exe 3.28
+  * package update with winbox.exe 3.28
 
- -- root <root@exiv.jinonice.czf>  Mon, 21 Jun 2021 20:17:45 +0200
+ -- root <root@exiv.jinonice.czf>  Mon, 21 Jun 2021 20:18:15 +0200
 
 winbox (3.27) stable; urgency=medium
 
