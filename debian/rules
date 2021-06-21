@@ -3,6 +3,10 @@
 # output every command that modifies files on the build system.
 #DH_VERBOSE = 1
 
+DWLURL="https://mt.lv/winbox64"
+VERSION=$(shell curl -s https://mikrotik.com/download | awk  '/WinBox ([0-9\.]*) \(64-bit\)/{print $$3}')
+
+
 # see EXAMPLES in dpkg-buildflags(1) and read /usr/share/dpkg/*
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/default.mk
@@ -27,6 +31,10 @@ include /usr/share/dpkg/default.mk
 #	dh_auto_configure -- \
 #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
+override_dh_prep:
+	dch -v $(VERSION) "package update with winbox.exe $(VERSION)"
+	git commit -m "package update with winbox.exe $(VERSION)" debian/changelog
+	dh_prep
 
 override_dh_install:
 	wget https://mt.lv/winbox   -O winbox32.exe
