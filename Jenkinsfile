@@ -52,7 +52,7 @@ pipeline {
             }
         }
 
-        stage('ubuntu-trusty') {
+        stage('ubuntu-focal') {
             agent {
                 docker { image 'vitexsoftware/ubuntu:stable' }
             }
@@ -62,7 +62,7 @@ pipeline {
 		            buildPackage()
 		            installPackages()
                 }
-                stash includes: 'dist/**', name: 'dist-trusty'
+                stash includes: 'dist/**', name: 'dist-focal'
             }
             post {
                 success {
@@ -82,7 +82,7 @@ pipeline {
 		            buildPackage()
 		            installPackages()
                 }
-                stash includes: 'dist/**', name: 'dist-trusty'
+                stash includes: 'dist/**', name: 'dist-hirsute'
             }
             post {
                 success {
