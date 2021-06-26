@@ -125,7 +125,7 @@ def buildPackage() {
     ).trim()
 
     def VERSION = sh (
-	script: 'curl -s https://mikrotik.com/download | awk  "/WinBox ([0-9\\.]*) \\(64-bit\\)/{print $3}"',
+	script: 'curl -s https://mikrotik.com/download | awk  \'/WinBox ([0-9\\.]*) \\(64-bit\\)/{print \$3}\'',
         returnStdout: true
     ).trim()
 
