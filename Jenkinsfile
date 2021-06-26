@@ -107,6 +107,7 @@ def copyArtifact(){
 
 def buildPackage() {
 
+
     def DIST = sh (
 	script: 'lsb_release -sc',
         returnStdout: true
@@ -124,7 +125,7 @@ def buildPackage() {
     ).trim()
 
     def VERSION = sh (
-	script: 'dpkg-parsechangelog --show-field Version',
+	script: 'curl -s https://mikrotik.com/download | awk  "/WinBox ([0-9\.]*) \(64-bit\)/{print $3}"',
         returnStdout: true
     ).trim()
 
