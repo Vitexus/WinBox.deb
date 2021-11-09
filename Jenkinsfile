@@ -135,6 +135,13 @@ def copyArtifact(){
 
 def buildPackage() {
 
+    def UPVER = sh (
+	script: 'upstreamversion.sh',
+        returnStdout: true
+    ).trim()
+
+    sh 'dch -v ' + UPVER + ' "v' + UPVER + ' release"'
+
     def DIST = sh (
 	script: 'lsb_release -sc',
         returnStdout: true
