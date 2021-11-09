@@ -6,3 +6,7 @@
 /debian/winbox.substvars
 /debian/winbox/
 /winbox.exe
+debian/.debhelper/
+winbox32.exe
+winbox64.exe
+

@@ -136,7 +136,7 @@ def copyArtifact(){
 def buildPackage() {
 
     def UPVER = sh (
-	script: 'upstreamversion.sh',
+	script: './upstreamversion.sh',
         returnStdout: true
     ).trim()
 
