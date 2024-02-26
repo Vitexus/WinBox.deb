@@ -36,7 +36,7 @@ distributions.each {
                 buildImage = docker.image(vendor + '/' + distribution)
                 sh 'git checkout debian/changelog'
                 def version = sh (
-                    script: 'upstreamversion.sh',
+                    script: './upstreamversion.sh',
                     returnStdout: true
                 ).trim()
                 ver = version + '.' + env.BUILD_NUMBER  + '~' + distroCodename
