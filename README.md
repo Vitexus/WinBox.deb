@@ -1,4 +1,4 @@
-![Project Logo](https://raw.githubusercontent.com/Vitexus/WinBox.deb/master/project-logo.png)
+![Project Logo](project-logo.png?raw=true)
 # winbox-deb-package
 
 Debian Package for current MikroTik WinBox: a small program that allows users to control and monitor Mikrotik RouterOS
@@ -10,7 +10,7 @@ router.
 The package use wine in order to run winbox.exe under linux.
 Also provide the Menu Item 
 
-![Screenshot](https://raw.githubusercontent.com/Vitexus/WinBox.deb/master/winbox3.4-deb.png "Screenshot")
+![Screenshot](winbox3.4-deb.png?raw=true "Screenshot")
 
 
  * WinBox Wiki: http://wiki.mikrotik.com/wiki/Manual:Winbox
@@ -30,8 +30,8 @@ execute:
 
 For Debian please use repo:
 
-    echo "deb http://repo.vitexsoftware.cz $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
-    sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
+    echo "deb http://repo.vitexsoftware.com $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+    sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.com/keyring.gpg
     sudo apt update
     sudo apt install winbox
 
