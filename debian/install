@@ -1,7 +1,4 @@
-winbox.png 				/usr/share/icons/hicolor/256x256/apps
-com.mikrotik.winbox.desktop		/usr/share/applications/
-com.mikrotik.winbox.metainfo.xml 	/usr/share/metainfo/
-winbox					/usr/bin
-winbox64.exe				/usr/lib/winbox
-winbox32.exe				/usr/lib/winbox
-
+debian/tmp/WinBox                       /usr/bin
+debian/tmp/assets/img/winbox.png        /usr/share/icons/hicolor/256x256/apps/
+com.mikrotik.winbox.desktop             /usr/share/applications/
+com.mikrotik.winbox.metainfo.xml        /usr/share/metainfo/

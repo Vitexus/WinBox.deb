@@ -1,32 +1,25 @@
 ![Project Logo](project-logo.png?raw=true)
+
 # winbox-deb-package
 
 Debian Package for current MikroTik WinBox: a small program that allows users to control and monitor Mikrotik RouterOS
 
-The package WinBox provide the interface (gui) to configure the Mikrotik OS router is  currently only running on the operating system
-microsoft windows and mac with the ease we winbox in the Mikrotik OS router and the effect of the unix command shell that is Mikrotik OS
-router.
+The package WinBox provides a native Linux interface (GUI) to configure MikroTik RouterOS devices.
 
-The package use wine in order to run winbox.exe under linux.
-Also provide the Menu Item 
+The package now installs the native Linux WinBox binary provided by MikroTik. Wine is no longer required.
 
-![Screenshot](winbox3.4-deb.png?raw=true "Screenshot")
+Also provides a menu item for easy access.
 
+![Screenshot](winbox4.0-deb.png?raw=true "Screenshot")
 
- * WinBox Wiki: http://wiki.mikrotik.com/wiki/Manual:Winbox
- * Package Source Code: https://github.com/Vitexus/WinBox.deb
- * Build Command: `gbp buildpackage`
-
+* WinBox Wiki: <http://wiki.mikrotik.com/wiki/Manual:Winbox>
+* Package Source Code: <https://github.com/Vitexus/WinBox.deb>
+* Build Command: `gbp buildpackage`
 
 Installation
 ------------
 
-If wine32 is missing, you should install it.
-multiarch needs to be enabled first.  as root, please
-execute:
-
-    dpkg --add-architecture i386 && apt-get update
-
+Simply install the package. No Wine or multiarch setup is required.
 
 For Debian please use repo:
 
@@ -35,5 +28,4 @@ For Debian please use repo:
     sudo apt update
     sudo apt install winbox
 
-
-See Also Redhat Package: https://github.com/ivoarch/winbox-rpm 
+See Also Redhat Package: <https://github.com/ivoarch/winbox-rpm>

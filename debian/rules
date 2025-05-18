@@ -37,13 +37,14 @@ include /usr/share/dpkg/default.mk
 #	dh_prep
 
 override_dh_install:
-	wget https://mt.lv/winbox   -O winbox32.exe
-	wget https://mt.lv/winbox64 -O winbox64.exe
+	wget https://download.mikrotik.com/routeros/winbox/4.0beta20/WinBox_Linux.zip -O WinBox_Linux.zip
+	rm -rf debian/tmp
+	mkdir -p debian/tmp
+	unzip -q WinBox_Linux.zip -d debian/tmp
 	dh_install
 
 override_dh_clean:
 	dh_clean
-	rm -f winbox32.exe
-	rm -f winbox64.exe
+	rm -f WinBox_Linux.zip
 
 

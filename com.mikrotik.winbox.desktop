@@ -7,7 +7,6 @@ Comment=small utility that allows administration of MikroTik RouterOS
 Categories=Settings;Security;Network
 
 Icon=winbox
-Exec=winbox
+Exec=WinBox
 Terminal=false
-
 

@@ -21,13 +21,46 @@
 winbox \- program to allow users to control and monitor Mikrotik RouterOS
 .SH SYNOPSIS
 .B winbox
-.RI [<connect-to> [<login> [<password>]]]
+.RI [options] [<connect-to> [<username> [<password>]]]
 .br
 .SH DESCRIPTION
 This manual page documents briefly the
 .B winbox
 command.
 .PP
+.B winbox
+is a native Linux program to control and monitor MikroTik RouterOS devices.
+.PP
+Usage:
+.nf
+winbox [options] connect-to username password
+.fi
+
+Options:
+.TP
+.BR -h ", " --help
+Displays help on commandline options.
+.TP
+.B --help-all
+Displays help, including generic Qt options.
+.TP
+.BR -v ", " --version
+Displays version information.
+.TP
+.B --force-update
+Update process won't compare versions and will update to latest.
+
+Arguments:
+.TP
+.B connect-to
+Connect to host.
+.TP
+.B username
+Username.
+.TP
+.B password
+Password.
+
 .SH SEE ALSO
 .BR wine (1),
 .br
