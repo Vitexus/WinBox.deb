@@ -1,9 +1,16 @@
-winbox (3.28) UNRELEASED; urgency=medium
+winbox (4.0.0b) UNRELEASED; urgency=medium
 
+  * release 4.0.0 beta for Linux
+
+ -- vitex <info@vitexsoftware.cz>  Sun, 18 May 2025 13:14:15 +0200
+
+winbox (3.28) stable; urgency=medium
+
+  [ root ]
   * package update with winbox.exe 3.28
   * package update with winbox.exe 3.28
 
- -- root <root@exiv.jinonice.czf>  Mon, 21 Jun 2021 20:18:15 +0200
+ -- vitex <info@vitexsoftware.cz>  Sun, 18 May 2025 13:13:46 +0200
 
 winbox (3.27) stable; urgency=medium
 
