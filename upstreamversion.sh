@@ -1,4 +1,2 @@
 #!/bin/bash
-DWLURL="https://mt.lv/winbox64"
-VERSION=$(curl -s https://mikrotik.com/download | grep -oP 'routeros/winbox/\K[^/]+(?=/WinBox_Linux\.zip)')
-echo $VERSION
+curl -sL https://mikrotik.com/download/winbox/ | grep -oP 'routeros/winbox/\K[0-9][^/"]*(?=/WinBox_Linux\.zip)' | head -1

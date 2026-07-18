@@ -9,4 +9,6 @@
 debian/.debhelper/
 winbox32.exe
 winbox64.exe
+/WinBox_Linux.zip
+/debian/tmp/
 

@@ -1,0 +1,4 @@
+# WinBox is a proprietary, statically-linked upstream binary redistributed
+# as-is; there is no source available to unbundle or relink against the
+# system libjpeg.
+winbox: embedded-library libjpeg [usr/bin/WinBox]

@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.mikrotik.winbox</id>
-  
-  <name>winbox</name>
-  <summary>Winbox is a small utility that allows administration of MikroTik RouterOS using a fast and simple GUI.</summary>
-  
+
+  <name>WinBox</name>
+  <summary>Administer MikroTik RouterOS through a fast, simple GUI</summary>
+
   <metadata_license>MIT</metadata_license>
   <project_license>0BSD</project_license>
-  
+
+  <developer id="com.mikrotik">
+    <name>MikroTik</name>
+  </developer>
+
   <description>
     <p>
-      All Winbox interface functions are as close as possible mirroring the console functions, that is why there are no Winbox sections in the manual. Some of advanced and system critical configurations are not possible from winbox, like MAC address change on an interface
+      All Winbox interface functions closely mirror the RouterOS console functions,
+      which is why there are no separate Winbox sections in the manual. Some advanced
+      and system-critical configurations, like changing an interface's MAC address,
+      are not possible from Winbox.
     </p>
   </description>
-  
+
   <launchable type="desktop-id">com.mikrotik.winbox.desktop</launchable>
+  <url type="homepage">https://wiki.mikrotik.com/wiki/Manual:Winbox</url>
   <screenshots>
     <screenshot type="default">
       <image>https://wiki.mikrotik.com/images/4/4c/Wb-man-1.PNG</image>
     </screenshot>
   </screenshots>
-</component>
 
+  <content_rating type="oars-1.1" />
+</component>

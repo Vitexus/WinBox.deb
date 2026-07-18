@@ -27,6 +27,6 @@ License: GPL-3.0+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-Files: winbox.exe
+Files: WinBox
 License: Proprietary
  This program is only for owners of RouterBoard hardware.
