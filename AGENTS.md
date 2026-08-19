@@ -1,4 +1,4 @@
-# WARP.md - Working AI Reference for WinBox.deb
+# AGENTS.md - Working AI Reference for WinBox.deb
 
 ## Project Overview
 **Type**: Debian source package
